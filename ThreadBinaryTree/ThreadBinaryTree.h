@@ -6,6 +6,7 @@ typedef char E;
 struct TreeNode {
     E element;
     struct TreeNode *left, *right;
+    struct TreeNode * parent;
     int leftTag, rightTag;
 };
 
@@ -20,3 +21,7 @@ void preOrder(Node root);
 void inOrderThreaded(Node root);
 
 void inOrder(Node root);
+
+void postOrderThreaded(Node root);
+
+void postOrder(Node root);

@@ -12,9 +12,12 @@ int main() {
     b->left = d;
     b->right = e;
 
-    //preOrderThreaded(a);
-    //preOrder(a);
+//    preOrderThreaded(a);
+//    preOrder(a);
 
-    inOrderThreaded(a);
-    inOrder(a);
+//    inOrderThreaded(a);
+//    inOrder(a);
+
+    postOrderThreaded(a);
+    postOrder(a);
 }
